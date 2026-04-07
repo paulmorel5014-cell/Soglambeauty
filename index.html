@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>So Glam Beauty Bar — Institut de beauté à Versailles</title>
+  <meta name="description" content="So Glam Beauty Bar, votre institut de beauté au cœur de Versailles. Extensions de cils, nail bar, maquillage permanent, soins du visage. 1 rue du Général Leclerc." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-main">So Glam</span>
+        <span class="nav__logo-sub">Beauty Bar</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#experience">L'Expérience</a></li>
+        <li><a href="#prestations">Prestations</a></li>
+        <li><a href="#avis">Avis</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--nav">Réserver</a>
+      <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="menuClose" aria-label="Fermer">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+    <ul>
+      <li><a href="#experience" class="mobile-link">L'Expérience</a></li>
+      <li><a href="#prestations" class="mobile-link">Prestations</a></li>
+      <li><a href="#avis" class="mobile-link">Avis</a></li>
+      <li><a href="#faq" class="mobile-link">FAQ</a></li>
+      <li>
+        <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--primary mobile-link">
+          Prendre rendez-vous
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- ─── Hero ──────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <svg class="hero__circle" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="300" cy="300" r="295" stroke="currentColor" stroke-width="1"/>
+        <circle cx="300" cy="300" r="240" stroke="currentColor" stroke-width="0.5" stroke-dasharray="4 8"/>
+      </svg>
+      <div class="hero__ornament" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 2L17.8 14.2L30 16L17.8 17.8L16 30L14.2 17.8L2 16L14.2 14.2L16 2Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">Institut de beauté · Versailles</p>
+      <h1 class="hero__title">
+        <em>So Glam</em>
+        <span>Beauty Bar</span>
+      </h1>
+      <p class="hero__subtitle">Votre moment de grâce au cœur de Versailles.<br>Un espace dédié à votre éclat, votre soin, votre bien-être.</p>
+      <div class="hero__ctas">
+        <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--primary">
+          Prendre rendez-vous
+        </a>
+        <a href="#prestations" class="btn btn--outline">Découvrir les soins</a>
+      </div>
+    </div>
+
+    <a href="#experience" class="hero__scroll" aria-label="Défiler vers le bas">
+      <div class="hero__scroll-track">
+        <div class="hero__scroll-dot"></div>
+      </div>
+      <span>Découvrir</span>
+    </a>
+  </section>
+
+
+  <!-- ─── Experience ────────────────────────────────────────────── -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <header class="section-header fade-in">
+        <span class="section-tag">Notre promesse</span>
+        <h2 class="section-title">Une expérience pensée<br><em>pour vous</em></h2>
+        <p class="section-desc">Au cœur de Versailles, So Glam Beauty Bar vous accueille dans un espace élégant et bienveillant, où chaque prestation est réalisée avec expertise et attention.</p>
+      </header>
+
+      <div class="experience__grid">
+        <div class="experience__card fade-in">
+          <div class="experience__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6L26.4 21.6L42 24L26.4 26.4L24 42L21.6 26.4L6 24L21.6 21.6L24 6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Excellence des soins</h3>
+          <p>Nos techniciennes sont formées aux techniques les plus récentes pour vous offrir des résultats impeccables et durables.</p>
+        </div>
+
+        <div class="experience__card fade-in">
+          <div class="experience__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 40C24 40 8 30 8 18C8 13 12 9 17 9C20 9 22.5 10.5 24 13C25.5 10.5 28 9 31 9C36 9 40 13 40 18C40 30 24 40 24 40Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Un espace bienveillant</h3>
+          <p>Du premier regard, vous êtes accueillie dans un cadre chaleureux et raffiné, pensé pour votre détente totale.</p>
+        </div>
+
+        <div class="experience__card fade-in">
+          <div class="experience__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8L28 20H40L30 27.6L34 40L24 32.4L14 40L18 27.6L8 20H20L24 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Produits d'exception</h3>
+          <p>Nous sélectionnons uniquement des produits professionnels haut de gamme pour sublimer votre beauté naturelle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── Prestations ───────────────────────────────────────────── -->
+  <section class="prestations section" id="prestations">
+    <div class="container">
+      <header class="section-header fade-in">
+        <span class="section-tag">Nos savoir-faire</span>
+        <h2 class="section-title">Nos prestations</h2>
+        <p class="section-desc">De la beauté des mains à la perfection du regard, découvrez nos soins d'exception réalisés par des expertes passionnées.</p>
+      </header>
+
+      <div class="prestations__grid">
+
+        <!-- Nail Bar -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 10C20 10 16 13 16 20C16 26 18 30 18 35C18 38 20 42 24 42C28 42 30 38 30 35C30 30 32 26 32 20C32 13 28 10 28 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 18C20 18 21.5 16 24 16C26.5 16 28 18 28 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Nail Bar</h3>
+          </div>
+          <p>Sublimez vos mains et vos pieds avec soin et précision. Manucure, semi-permanent, gel, capsules et nail art.</p>
+          <ul class="presta-card__list">
+            <li>Manucure express</li>
+            <li>Pose semi-permanente</li>
+            <li>Pose gel / capsules</li>
+            <li>Nail art</li>
+            <li>Beauté des pieds</li>
+          </ul>
+        </article>
+
+        <!-- Extensions de cils -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="24" cy="28" rx="16" ry="8" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="24" cy="26" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M16 20L13 13M20 18L18 11M24 18V11M28 18L30 11M32 20L35 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Extensions de cils</h3>
+          </div>
+          <p>Regard intensifié, yeux sublimés. Des extensions adaptées à votre morphologie et vos désirs.</p>
+          <ul class="presta-card__list">
+            <li>Extensions naturelles</li>
+            <li>Volume russe</li>
+            <li>Méga volume</li>
+            <li>Rehaussement de cils</li>
+            <li>Teinture cils</li>
+          </ul>
+        </article>
+
+        <!-- Sourcils -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 20C8 20 14 13 24 13C34 13 40 20 40 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 28C8 28 14 21 24 21C34 21 40 28 40 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Beauté des sourcils</h3>
+          </div>
+          <p>Des sourcils parfaitement définis qui encadrent et subliment votre visage naturellement.</p>
+          <ul class="presta-card__list">
+            <li>Microblading</li>
+            <li>Microshading</li>
+            <li>Restructuration</li>
+            <li>Teinture</li>
+            <li>Épilation sourcils</li>
+          </ul>
+        </article>
+
+        <!-- Maquillage permanent -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 30C10 30 15 22 24 20C33 22 38 30 38 30C38 30 33 38 24 38C15 38 10 30 10 30Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M10 30C14 26 18.5 24.5 24 24.5C29.5 24.5 34 26 38 30" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Maquillage permanent</h3>
+          </div>
+          <p>Un maquillage naturel et durable qui révèle votre beauté au quotidien, sans effort.</p>
+          <ul class="presta-card__list">
+            <li>Lip Blush</li>
+            <li>Sourcils Hairstroke</li>
+            <li>Sourcils Ombré</li>
+            <li>Freckles</li>
+          </ul>
+        </article>
+
+        <!-- Soins du visage -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 8C24 8 32 13 36 20C40 27 38 35 32 38C29 40 24 40 24 40C24 40 19 40 16 38C10 35 8 27 12 20C16 13 24 8 24 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M24 18V26M20 22H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Soins du visage</h3>
+          </div>
+          <p>Des soins haute performance pour régénérer, illuminer et revitaliser votre peau en profondeur.</p>
+          <ul class="presta-card__list">
+            <li>HydraFacial</li>
+            <li>Peeling</li>
+            <li>Luminothérapie</li>
+            <li>Soins SOSkin</li>
+          </ul>
+        </article>
+
+        <!-- Épilation -->
+        <article class="presta-card fade-in">
+          <div class="presta-card__top">
+            <div class="presta-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 7C24 7 18 17 18 28C18 34 20.7 41 24 41C27.3 41 30 34 30 28C30 17 24 7 24 7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M18 22L13 17M18 30L11 27M30 22L35 17M30 30L37 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Épilation</h3>
+          </div>
+          <p>Une épilation douce et précise pour une peau lisse et soyeuse en toute sérénité.</p>
+          <ul class="presta-card__list">
+            <li>Épilation au fil</li>
+            <li>Épilation visage</li>
+            <li>Épilation corps</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="prestations__cta fade-in">
+        <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--primary">
+          Voir toutes les prestations &amp; tarifs
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── Avis ──────────────────────────────────────────────────── -->
+  <section class="avis section" id="avis">
+    <div class="container">
+      <header class="section-header fade-in">
+        <span class="section-tag">Ce qu'elles disent</span>
+        <h2 class="section-title">Avis de nos clientes</h2>
+        <p class="section-desc">La satisfaction de nos clientes est notre plus belle récompense.</p>
+      </header>
+
+      <div class="avis__grid">
+
+        <article class="avis-card fade-in">
+          <div class="avis-card__stars" aria-label="5 étoiles">★★★★★</div>
+          <blockquote>
+            "Un salon d'exception ! Les extensions de cils sont impeccables — le résultat est naturel, précis et durable. Je ne vais nulle part ailleurs."
+          </blockquote>
+          <footer class="avis-card__author">
+            <div class="avis-card__avatar" aria-hidden="true">C</div>
+            <div>
+              <strong>Camille R.</strong>
+              <span>Cliente fidèle</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="avis-card fade-in">
+          <div class="avis-card__stars" aria-label="5 étoiles">★★★★★</div>
+          <blockquote>
+            "Accueil chaleureux, cadre élégant et soins de grande qualité. Ma pose gel tient parfaitement depuis des semaines. Je recommande vivement !"
+          </blockquote>
+          <footer class="avis-card__author">
+            <div class="avis-card__avatar" aria-hidden="true">S</div>
+            <div>
+              <strong>Sophie M.</strong>
+              <span>Cliente fidèle</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="avis-card fade-in">
+          <div class="avis-card__stars" aria-label="5 étoiles">★★★★★</div>
+          <blockquote>
+            "Le microblading réalisé ici est tout simplement parfait. Un travail précis, naturel et soigné. Mes sourcils n'ont jamais été aussi beaux !"
+          </blockquote>
+          <footer class="avis-card__author">
+            <div class="avis-card__avatar" aria-hidden="true">L</div>
+            <div>
+              <strong>Léa D.</strong>
+              <span>Cliente fidèle</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="avis-card fade-in">
+          <div class="avis-card__stars" aria-label="5 étoiles">★★★★★</div>
+          <blockquote>
+            "Un vrai moment de détente et de soin. L'équipe est professionnelle, à l'écoute et bienveillante. Le cadre est magnifique. Je repars toujours enchantée."
+          </blockquote>
+          <footer class="avis-card__author">
+            <div class="avis-card__avatar" aria-hidden="true">M</div>
+            <div>
+              <strong>Marie-Christine B.</strong>
+              <span>Cliente fidèle</span>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── Rendez-vous ───────────────────────────────────────────── -->
+  <section class="rdv" id="rdv">
+    <div class="rdv__inner">
+      <div class="rdv__content fade-in">
+        <span class="section-tag section-tag--light">Votre moment So Glam</span>
+        <h2>Réservez votre<br><em>instant beauté</em></h2>
+        <p>Prenez rendez-vous en quelques clics sur notre plateforme en ligne, disponible 24h/24 et 7j/7.</p>
+
+        <ul class="rdv__info">
+          <li class="rdv__info-item">
+            <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" stroke="currentColor" stroke-width="1.5"/></svg>
+            <span>1 rue du Général Leclerc, 78000 Versailles</span>
+          </li>
+          <li class="rdv__info-item">
+            <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M6.62 10.79C8.06 13.62 10.38 15.93 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" stroke="currentColor" stroke-width="1.5"/></svg>
+            <a href="tel:+33139518102">01 39 51 81 02</a>
+          </li>
+          <li class="rdv__info-item">
+            <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 7V12L15 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <span>Lun – Sam · 9 h 00 – 19 h 00</span>
+          </li>
+        </ul>
+
+        <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--white">
+          Réserver en ligne →
+        </a>
+      </div>
+
+      <div class="rdv__deco" aria-hidden="true">
+        <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="200" cy="200" r="195" stroke="currentColor" stroke-width="0.8" opacity="0.2"/>
+          <circle cx="200" cy="200" r="150" stroke="currentColor" stroke-width="0.5" stroke-dasharray="3 6" opacity="0.15"/>
+          <path d="M200 80L204.8 195.2L320 200L204.8 204.8L200 320L195.2 204.8L80 200L195.2 195.2L200 80Z" stroke="currentColor" stroke-width="1" opacity="0.3" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── FAQ ───────────────────────────────────────────────────── -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <header class="section-header fade-in">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Questions fréquentes</h2>
+        <p class="section-desc">Tout ce que vous devez savoir avant votre visite.</p>
+      </header>
+
+      <div class="faq__list" role="list">
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Comment prendre rendez-vous ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>Vous pouvez réserver directement en ligne via notre plateforme Planity, disponible 24 h/24 et 7 j/7. Il est également possible de nous appeler au 01 39 51 81 02 pendant nos heures d'ouverture.</p>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Puis-je modifier ou annuler mon rendez-vous ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>Oui, vous pouvez modifier ou annuler votre rendez-vous jusqu'à 24 heures avant la prestation, sans frais, directement depuis la confirmation reçue par e-mail ou SMS.</p>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Comment me préparer à une pose d'extensions de cils ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>Venez sans mascara ni maquillage des yeux. Si vous portez des lentilles de contact, préférez vos lunettes pour la séance. Évitez également de vous mouiller les yeux dans les 24 h suivant la pose pour une tenue optimale.</p>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Combien de temps dure une pose semi-permanente ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>Une pose de vernis semi-permanent dure en moyenne 45 minutes à 1 heure. La durée peut varier selon les soins additionnels demandés (nail art, soin des cuticules, etc.).</p>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Proposez-vous des bons cadeaux ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>Oui ! Offrez un moment de beauté et de bien-être à vos proches grâce à nos bons cadeaux. Contactez-nous directement au salon ou par téléphone pour plus d'informations.</p>
+          </div>
+        </div>
+
+        <div class="faq-item fade-in" role="listitem">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Où se situe le salon et comment s'y rendre ?</span>
+            <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="faq-item__a" hidden>
+            <p>So Glam Beauty Bar est situé au 1 rue du Général Leclerc, 78000 Versailles, à 2 minutes à pied de la gare Versailles Château Rive Gauche (RER C). Des parkings sont disponibles à proximité.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── Footer ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span>So Glam</span>
+            <small>Beauty Bar</small>
+          </div>
+          <p>Institut de beauté au cœur de Versailles.<br>Cils · Ongles · Maquillage permanent.</p>
+          <a href="https://www.instagram.com/soglambeautybar/" target="_blank" rel="noopener" class="footer__ig">
+            <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            @soglambeautybar
+          </a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Prestations</h4>
+          <ul>
+            <li>Nail Bar</li>
+            <li>Extensions de cils</li>
+            <li>Beauté des sourcils</li>
+            <li>Maquillage permanent</li>
+            <li>Soins du visage</li>
+            <li>Épilation</li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Informations</h4>
+          <ul>
+            <li>1 rue du Général Leclerc<br>78000 Versailles</li>
+            <li><a href="tel:+33139518102">01 39 51 81 02</a></li>
+            <li>Lun – Sam : 9 h – 19 h</li>
+            <li>Dimanche : Fermé</li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Réservation</h4>
+          <p>Réservez votre moment en ligne, disponible 24 h/24.</p>
+          <a href="https://www.planity.com/so-glam-78000-versailles" target="_blank" rel="noopener" class="btn btn--gold btn--sm">
+            Réserver →
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2024 So Glam Beauty Bar · Versailles · Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
